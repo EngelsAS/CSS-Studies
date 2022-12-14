@@ -1,0 +1,64 @@
+#container{
+	width: 85%;
+	margin: 0 auto;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	min-width: 720px;
+	max-width: 1280px;
+}
+
+#marca{
+	background: #9E9E9E;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+
+#navegacao{
+	background: #d1d1d1;
+	width: 23%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+
+}
+
+#conteudo{
+	width: 74%;
+	float: right;
+}
+
+#conteudo-principal{
+	width: 320px;
+	float: left;
+}
+
+#conteudo-secundario{
+	width: 180px;
+	float: right;
+	background: #d1d1d1;
+}
+
+#rodape{
+	clear: both;
+	background: #9E9E9E;
+	padding: 5px;
+	text-align: center;
+}
+
+#conteudo-secundario h2,
+#conteudo-secundario p{
+	padding: 0 15px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:hover{
+	color: #9E9E9E ;
+}

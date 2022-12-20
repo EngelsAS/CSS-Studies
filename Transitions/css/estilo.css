@@ -1,0 +1,47 @@
+#caixa{
+	width: 300px;
+	height: 300px;
+	background-color: #88DD7F;
+	margin: 20px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	padding: 30px;
+	box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+#caixa h1{
+	color: #fff;
+	text-shadow: 10px 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+#caixa:hover{
+	width: 500px;
+	background-color: #5465;
+	transition: all 0.2s;
+}
+
+#caixa2{
+	background-color: #5465;
+	margin: 20px;
+	width: 300px;
+	height: 40px;
+ 	text-align: center;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+#caixa2 h2{
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 40px;
+	text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+#caixa2:hover{
+	width: 400px;
+	background-color: #88DD7F;
+	transition: all 0.2s;
+}
